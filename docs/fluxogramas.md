@@ -1,5 +1,4 @@
 ```mermaid
-
 graph TD
     classDef sistema fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
     classDef decisao fill:#fff9c4,stroke:#fbc02d,stroke-width:2px;
@@ -26,11 +25,9 @@ graph TD
         G -->|SEM RESPOSTA| J[Follow-up Automático]:::sistema
         J -->|Continua sem resposta| K[Encerra Fluxo]:::acao
     end
+```
 
 ```mermaid
-
-```mermaid
-
 graph TD
     classDef sistema fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
     classDef decisao fill:#fff9c4,stroke:#fbc02d,stroke-width:2px;
@@ -55,11 +52,9 @@ graph TD
         H --> J
         I --> J
     end
+```
 
 ```mermaid
-
-```mermaid
-
 graph TD
     classDef sistema fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
     classDef decisao fill:#fff9c4,stroke:#fbc02d,stroke-width:2px;
@@ -81,6 +76,4 @@ graph TD
         G -->|SIM| H[Agenda Consulta e Envia Confirmação]:::acao
         G -->|NÃO ou Falha| I[Gera Tarefa para Recepção]:::sistema
     end
-
-```mermaid
-
+```
